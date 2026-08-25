@@ -18,4 +18,8 @@ Serve with the built-in node http server — no build, no dependencies.
 
 - **$** `npm run serve` — Basic http server for the micro app
 
-## Copyright (c) 2026 Noodlestan. Published under a MIT license.
+## License
+
+Copyright (c) 2026 [Noodlestan](https://noodlestan.org/).
+
+Published under a [MIT license](https://noodlestan.mit-license.org/).

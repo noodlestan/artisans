@@ -20,4 +20,7 @@ Serve with the built-in node http server — no build, no dependencies.
 - **$** `npm run {{%script.name}}` — {{%script.purpose}}
 ::END
 
-## {{%project.license.short}}
+## License
+
+{{%package.license.short}}
+
