@@ -1,0 +1,16 @@
+{
+  "name": "@artisans/art-mantras",
+  "version": "0.0.1",
+  "description": "Interactive curator for the A.R.T.I.F.I.C.I.A.L.S acronym. Vanilla JS, no build.",
+  "author": "Noodlestan",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node src/serve.js",
+    "lint": "prettier . -c && eslint .",
+    "lint:fix": "prettier . -c --write && eslint . --fix",
+    "ci": "npm run lint && npm run build"
+  }
+}
