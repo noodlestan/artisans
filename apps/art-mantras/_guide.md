@@ -1,79 +1,81 @@
-# Guide: Art Mantras
+# Art Mantras
 
 A micro app that generates mantras through a 12-step race.
 
 ## Recommended Reading
 
-Agents SHOULD scan these files for relevant clarifications when faced with ambiguity or omissions that may result from missing definitions.
+Agents SHOULD scan these files for definitions and resource locations when faced with uncertainty or ambiguity that may result from missing resources.
 
-- `_guide.md` — this file: project overview, layout, setup, verification.
+- `_guide.md` — this file: package overview, layout, records, workflows, and operating instructions.
 - `_wip.md` — the parking lot and progress tracker — open actions, questions and blockers (no dones!).
 - `_architect.md` — the architecture — Why, What, How, Follow-ups (no code).
 - `_pseudo.md` — the function declarations — name, params, responsibility, pseudo code — entry point first, grouped by layer.
 
-## Repository Layout
+## Package Layout
 
 ```
+_guide.md           — this file
 _backlog/           — plans, instructions, reports
+_records/           — package and deployment records
+_architect.md       — project direction, principles, and follow-ups
+_pseudo.md          — pseudo-code contract
+_wip.md             — parking lot and progress tracker
 src/                — application source
+scripts/            — build scripts
 ```
-
-## Setup
-
-Run from repository root (monorepo):
-
-```bash
-npm ci # to install dependencies.
-npm run ci # to verify build is green before starting
-```
-
-## Verification
-
-Run from this package directory:
-
-```bash
-npm run lint:fix # to fix formatting issues automatically
-npm run lint # to report other issues (prettier, eslint, tsc --noEmit)
-npm run build # to start the development server
-```
-
-Runs on pre-commit hook from the repository root:
-
-```bash
-npm run ci # lint, build and test
-```
-
-## Deployment
-
-See `_records/deployment.art` for deployment commands, environments, and infrastructure details.
 
 ## Records Management
 
 Records are co-located with the resources they describe in `_records/` directories:
 
-- **Project:** `_records/project.art`
-- **Package:** `{package-path}/_records/package.art`
-- **Deployment:** `{app-path}/_records/deployment.art`
+- **Package:** `_records/package.art`
+- **Deployments:** `_records/static-web-deployment.art`
+- **Environments:** `_records/production-environment.art`, `_records/staging-environment.art`
 
-Examples:
+## Knowledge References
 
-- `checkouts/artificial/_records/project.art`
-- `checkouts/artificial/artisans/apps/art-mantras/_records/deployment.art`
+This package does not maintain a dedicated architecture reference; see `_architect.md` for project direction and `_pseudo.md` for the pseudo-code contract.
 
-## References
+## Workflows
 
-The workspace maintains an architecture reference at `architecture/index.md` and decision records at `architecture/records/adr`.
+### Planning Work
 
-## Planning Workflow
+This project plans its work with the workflow defined in `$DOMAINS/work/workflows/planning-work/workflow.art`.
 
-This project plans its work with the plan workflow defined in `$WORKSPACE/.agents/domains/plans/`.
+- The backlog lives at `_backlog/` with subdirectories such as `/3-now` and `/4-next/`.
+- The short-term focus is captured in `_wip.md`.
+- The requirements, use cases, and principles are captured in `_architect.md`.
 
-Each project manages its own backlog in a local `_backlog/` directory with a `_guide.md` entry point containing layout, references, verification, and workflows.
+## Operating Instructions
 
-The short-term focus is captured in `_wip.md` — actionable items, pending questions, blockers, and follow-ups (no done items).
+### Operating Instructions: Setting Up
 
-The requirements, use cases, and principles are captured in `_architect.md`, along with approach to work sequence, iterations, and milestones.
+**Instructions:**
 
-Delegation runs via `_backlog/plan-art-mantras/plan.md` and its instruction files.
+Run from the repository root (monorepo):
 
-**Reading order:** `_guide.md` → `_wip.md` → `_architect.md` → `_pseudo.md`
+```bash
+npm ci # to install dependencies.
+```
+
+### Operating Instructions: Verifying Step
+
+**Instructions:**
+
+Run from this package directory:
+
+```bash
+npm run lint:fix # to fix formatting issues automatically
+npm run lint # to report other issues (prettier, eslint)
+npm run build # to bundle the application
+```
+
+### Operating Instructions: Verifying Completion
+
+**Instructions:**
+
+Run from this package directory:
+
+```bash
+npm run ci # lint and build
+```
