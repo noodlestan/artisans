@@ -4,17 +4,17 @@ Artisan applications built with Art JS. Hand-crafted micro applications for huma
 
 ## Recommended Reading
 
-Agents SHOULD scan these files for definitions and resource locations when faced with uncertainty or ambiguity that may result from missing resources.
+Agents SHOULD scan these files for relevant clarifications when faced with ambiguity or omissions that may result from missing definitions.
 
-- `_guide.md` — this file: system overview, layout, records, and operating instructions.
+- `_guide.md` — this file: system overview, layout, setup, verification.
 - `apps/art-mantras/_guide.md` — the Art Mantras application guide.
 
 ## Repository Layout
 
 ```
-_guide.md           — this file
-_records/           — project and repository records
-apps/               — application packages
+_guide.md    — this file
+_records/    — records (project, repository, namespaces, dependency, scaffolders, scripts)
+apps/        — application packages
 ```
 
 ## Projects
@@ -36,7 +36,7 @@ Records are co-located with the resources they describe in `_records/` directori
 
 ## Operating Instructions
 
-#### Operating Instructions: Setting Up
+### Operating Instructions: Setting Up
 
 **Instructions:**
 
@@ -46,7 +46,7 @@ Run from the repository root (monorepo):
 npm ci # to install dependencies.
 ```
 
-#### Operating Instructions: Verifying Commit
+### Operating Instructions: Verifying Commit
 
 **Instructions:**
 
@@ -56,7 +56,7 @@ Runs automatically on pre-commit hook (from the repository root):
 npm run ci # lint, build and test
 ```
 
-#### Operating Instructions: Verifying Completion
+### Operating Instructions: Verifying Completion
 
 **Instructions:**
 

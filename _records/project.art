@@ -12,10 +12,16 @@
 
 **Repository:** Repository: Artisans
 
+**Code:** https://github.com/noodlestan/artisans
+
+**Website:** https://art-mantras.noodlestan.org
+
 **Resources:**
 
 - Application: Art-Mantras
 
 **Private:** `false`
+
+**Management:** Uses Workflow: Planning Work with a local Backlog at `apps/art-mantras/_backlog/`.
 
 **License:** License: Noodlestan 2026 MIT
