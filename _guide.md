@@ -1,6 +1,10 @@
-# Artisans
+# Guide: Artisans
 
-Artisan applications built with Art JS. Hand-crafted micro applications for humans working with Art and Artificials.
+> Host and manage the Artisans experiments, and their planning artefacts.
+
+Small, indepedents apps and tools.
+
+Uses Workflow: Planning Work with one backlog per package, coordinating with Workflow: Roadmapping from one project-wide roadmap.
 
 ## Recommended Reading
 

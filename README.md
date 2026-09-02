@@ -1,14 +1,14 @@
-# Artificial
+# Artisans
 
-> Generate and manage (Art)ificial Driven Development environments.
+> Have fun with artificials.
 
-A collection of tools and resources to generate and manage agent instructions. Includes the Art Language, and a (reactive) pipeline for bundling, compiling, validating, parsing, and locating resources.
+Creative and experimental micro projects developed entirely using Artificials.
 
 ## Packages
 
-| namespace   | dir                          | package                         | description                               |
-| ----------- | ---------------------------- | ------------------------------- | ----------------------------------------- |
-| `@artisans` | `apps/art-mantras/` | `@artisans/art-mantras`         | Interactive A.R.T.I.F.I.C.I.A.L.S curator |
+| namespace   | dir                 | package                 | description                               |
+| ----------- | ------------------- | ----------------------- | ----------------------------------------- |
+| `@artisans` | `apps/art-mantras/` | `@artisans/art-mantras` | Interactive A.R.T.I.F.I.C.I.A.L.S curator |
 
 ## Scripts
 
