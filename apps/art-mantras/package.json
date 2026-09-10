@@ -7,10 +7,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.js",
     "serve": "node src/serve.js",
     "lint": "prettier . -c && eslint .",
     "lint:fix": "prettier . -c --write && eslint . --fix",
+    "build": "node scripts/build.js",
     "ci": "npm run lint && npm run build"
   }
 }
