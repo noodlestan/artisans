@@ -1,5 +1,5 @@
 {
-  "extends": "@noodlestan/tsconfig/workspace/tsconfig.json",
+  "extends": "@noodlestan/tsconfig/monorepo/tsconfig.json",
   "compilerOptions": {
     "allowJs": true
   },
