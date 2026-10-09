@@ -36,6 +36,12 @@ Records are co-located with the resources they describe in `_records/` directori
 
 This package does not maintain a dedicated architecture reference; see `_architect.md` for project direction and `_pseudo.md` for the pseudo-code contract.
 
+## Conventions
+
+This package follows strict conventions.
+
+::READ `../../_guide.md` for repository-wide conventions.
+
 ## Workflows
 
 ### Planning Work
