@@ -2,6 +2,12 @@
   "name": "noodlestan/artisans",
   "version": "0.0.1",
   "description": "Creative and experimental micro projects developed entirely using Artificials.",
+  "keywords": [
+    "experimental",
+    "creative",
+    "demo",
+    "micro-projects"
+  ],
   "author": "Noodlestan",
   "license": "MIT",
   "private": true,

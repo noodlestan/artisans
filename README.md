@@ -4,6 +4,8 @@
 
 Creative and experimental micro projects developed entirely using Artificials.
 
+**Keywords:** experimental, creative, demo, micro-projects.
+
 ## Packages
 
 | namespace   | dir                 | package                 | description                               |
