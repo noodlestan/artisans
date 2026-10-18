@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Interactive curator for the A.R.T.I.F.I.C.I.A.L.S acronym. Vanilla JS, no build.",
   "keywords": [
-    "art",
+    "web-app",
     "interactive",
+    "art",
+    "experimental",
+    "creative",
     "demo"
   ],
   "author": "Noodlestan",

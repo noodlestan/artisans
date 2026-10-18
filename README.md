@@ -4,7 +4,7 @@
 
 Creative and experimental micro projects developed entirely using Artificials.
 
-**Keywords:** experimental, creative, demo, micro-projects.
+**Keywords:** art, experimental, creative, demo.
 
 ## Packages
 
