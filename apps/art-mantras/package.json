@@ -12,7 +12,15 @@
   ],
   "author": "Noodlestan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodlestan/artisans.git",
+    "directory": "apps/art-mantras"
+  },
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "type": "module",
   "scripts": {
     "serve": "node src/serve.js",
